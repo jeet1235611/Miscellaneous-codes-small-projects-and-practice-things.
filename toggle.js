@@ -13,11 +13,12 @@ button.addEventListener("click", function(){
 
 	if(isPurple){
 		document.body.style.background = "white";
-		isPurple = false; //false boolean hona na ki string.
+		//isPurple = false; //false boolean hona na ki string.
 	}
 	else{
 		document.body.style.background = "purple";
-		isPurple = true;
+		//isPurple = true;
 	}
+	isPurple = !isPurple;
 	// document.body.style.background = "purple";
 });
